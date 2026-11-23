@@ -1,0 +1,6 @@
+experiment,checkpoint,final_mean_reward,training_seconds,episodes,successes,lifted,approach_within_3cm,lost_height,clip
+baseline,model_1000.pt,1226.01,1722,10,8,10,10,0,clips/baseline_seed42.mp4
+max_iters_500,model_499.pt,918.63,863,10,2,10,10,0,clips/max_iters_500_seed42.mp4
+box_target_strong,model_1000.pt,1057.55,1683,10,0,0,10,0,clips/box_target_strong_seed42.mp4
+qpos_strong,model_1000.pt,4527.5,1624,10,0,0,0,0,clips/qpos_strong_seed42.mp4
+learning_rate_3e_minus4,model_1000.pt,1282.76,1807,10,9,10,10,0,clips/learning_rate_3e_minus4_seed42.mp4
